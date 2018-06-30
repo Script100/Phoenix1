@@ -1,1 +1,1 @@
-phoenix.py
+worker: python phoenix.py
