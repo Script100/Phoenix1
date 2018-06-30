@@ -1,3 +1,9 @@
-discord.py
-asyncio.py
-bychalk.py
+discord
+asyncio
+Pymoe
+requests
+simplejson
+apiai
+bs4
+gspread
+oauth2client
