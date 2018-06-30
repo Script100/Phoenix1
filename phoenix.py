@@ -4,6 +4,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
 import chalk
+import os
 
 bot = commands.Bot(command_prefix='ph!')
 
@@ -35,4 +36,4 @@ async def sing():
 async def info():
  response = ("```Hey there, thanks for using Phoenix Bot, I'm currently getting configured, so this command will be done soon.```")
  await bot.say(response)
-bot.run("NDYyMjQxMzk1NzY0MjMyMTkz.DhgQ8Q.EmqyftS4CPF8BYlEl5Vf2pv8pHg")
+bot.run(os.getenv("NDYyMjQxMzk1NzY0MjMyMTkz.DhgQ8Q.EmqyftS4CPF8BYlEl5Vf2pv8pHg"))
